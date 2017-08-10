@@ -19,7 +19,7 @@ install:
 
 script:
   - "pylint -rn homekeeper"
-  - nosetests --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_homekeeper_ce1347dc53_0
-  - python -m properform Push 47.88.50.110:15554 asdf_homekeeper_ce1347dc53_0 ./profile_homekeeper_ce1347dc53_0
+  - nosetests --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_homekeeper_ce1347dc53_1
+  - python -m properform Push 47.88.50.110:15554 asdf_homekeeper_ce1347dc53_1 ./profile_homekeeper_ce1347dc53_1
 
-#2017-08-10 17:53:10 modified at 0
+#2017-08-10 17:53:10 modified at 0#2017-08-10 17:53:17 modified at 1
